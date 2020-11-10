@@ -4,27 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>My Landing Page</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Site Title</li>
-        </ul>
+    <div class="title-bar">
+      <div class="title-bar-left">
+        <span class="title-bar-title"><a href="#">GalaxSeries</a></span>
       </div>
-      <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li><a href="#0">Home</a></li>
-          <li><a href="#0">About</a></li>
-          <li><a href="#0">Contact</a></li>
-        </ul>
+      <div class="title-bar-right">
+        <button class="menu-icon" type="button"></button>
       </div>
     </div>
 
-    <img data-interchange="[image/new.jpg, small], [image/new.jpg, medium], [image/new.jpg, large]" src="#" alt="">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Galaxy</a></li>
+          <li class="has-submenu">
+            <a href="#">More</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="#0">Developer</a></li>
+              <li><a href="#0">Images</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

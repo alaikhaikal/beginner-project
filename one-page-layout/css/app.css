@@ -1,4 +1,17 @@
-.top-bar, .top-bar 
-ul {
-    background-color: lightblue;
+.top-bar, .top-bar ul {
+    background-color: #f0ecec;
+}
+
+.title-bar {
+    background: #2b2394;
+    height: 60px;
+    padding-left: 30px;
+}
+
+.title-bar-title > a{
+    color: #f0ecec;
+}
+
+a {
+    color: black;
 }
